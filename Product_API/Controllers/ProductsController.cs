@@ -9,8 +9,8 @@ namespace Product_API.Controllers
     {
         private static List<Product> Products = new List<Product>
         {
-            new Product { Name = "BMW", Price = 100000 },
-            new Product { Name = "Mircidis", Price = 120000 },
+            new Product { Id = 1, Name = "BMW", Price = 100000 },
+            new Product { Id = 2, Name = "Mircidis", Price = 120000 },
         };
 
         // GET api/products
